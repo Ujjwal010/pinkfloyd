@@ -1,0 +1,47 @@
+#main{
+
+   background-color: rgb(238, 238, 238);/* rgb(238, 221, 223);*/
+    border-radius: 10px;
+    padding:10px;
+
+}
+
+#title{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+#img-div{
+    background-color: whitesmoke;
+}
+
+#image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+#img-caption{
+    text-align: center;
+}
+
+#tribute-info{
+    text-align: center;
+}
+
+li{
+    padding:10px;
+}
+@media(max-width:500px){
+    #image{
+        height:400px;
+        width:200px;
+    }
+}
